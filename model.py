@@ -11,10 +11,6 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import LancasterStemmer
 from nltk.stem import WordNetLemmatizer
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
 
 # load the pickle files 
 count_vector = pk.load(open('pickle_file/count_vector.pkl','rb'))            # Count Vectorizer
